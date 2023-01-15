@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import seaborn as sns
 st.title('Supermarket Sales Data Analysis')
 
 df = pd.read_csv('supermarket.csv')
